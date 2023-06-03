@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="heading">Survey Form</h1>
+    <form>
+        <div class="container">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name"><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"><br>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age"><br>
+                <label for="text">Which branch?</label>
+            <select name="role" id="role">
+                <option value="student">CS</option>
+                <option value="intern">ME</option>
+                <option value="professional">CE</option>
+            </select><br>
+            <section>
+                <label>You know the Programming language?</label><br>
+                <label for="text">Yes</label>
+                <input type="radio" ><br>
+                <label for="text">No</label>
+                <input type="radio" ><br>
+                <label for="text">Maybe</label>
+                <input type="radio" >
+            <hr/>
+            </section>
+            <section class="check">
+                <label >Language known</label><br>
+                <label for="text">C</label>
+                <input type="checkbox"><br>
+                <label for="text">C++</label>
+                <input type="checkbox"><br>
+                <label for="text">JAVA</label>
+                <input type="checkbox"><br>
+                <label for="text">PYTHON</label>
+                <input type="checkbox"><br>
+                <label for="text">REACT</label>
+                <input type="checkbox"><br>
+            </section>
+            <hr/>
+            <div>
+                <label for="text">Any Comments or Suggestions</label><br>
+                <textarea name="Comments" id="" cols="30" rows="5"></textarea>
+            </div>
+                <button type="button">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
